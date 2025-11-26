@@ -4,8 +4,10 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("CH47NoScientistsBugFix", "Ultra", "2.1.2")]
+    [Info("CH47NoScientistsBugFix", "Ultra/Gattaca", "2.1.2")]
     [Description("CH47 respawns if it has spawned out of livable map")]
+    // Adding check for end of life and automated removal
+    // This reduces console spam and a cleaner resolve
 
     class CH47NoScientistsBugFix : RustPlugin
     {
@@ -172,3 +174,4 @@ namespace Oxide.Plugins
         #endregion
     }
 }
+
