@@ -12,3 +12,4 @@ Don't hesitate to continue with this project
 Discord server: https://discord.gg/NczmeTg - please share your experience with other admins
 
 UPDATE: the cause seems to be Oxide.Ext.RustIO.dll (Rust.IO maps). Anyway this plugin can fix the issue
+UPDATE: Fixed end-of-life event to prevent console spam.
